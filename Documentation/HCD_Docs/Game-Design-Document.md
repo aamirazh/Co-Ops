@@ -1,14 +1,26 @@
 ## Executive Summary
 
-### Title: Co-Ops
+### Title
 
-### Genre: Gamified Productivity App
+Co-Ops
 
-### Version: 1.0
+### Genre
+
+Gamified Productivity App
+
+### Version
+
+1.0
 
 ### The Big Idea
 
 The idea of Co-Ops is to allow someone to have the pressure of developing a skill, hobby, or habit with someone else, along with the documentation, reward system, and utility of doing it on a gamified productivity app.
+
+In a nutshell, it facilitates the cooperative pursuit of shared goals.  Users are allowed to create and customize their own missions and quests within the framework provided by the application, and then measure, track and analyze their progress over time.  The key feature distinguishing Co-Ops from other productivity apps like Habitica and SuperBetter is that Co-Ops missions can only be completed by a group of two or more people.  Co-Ops provides a framework for leveraging social motivation, allowing users to create social dynamics and cooperative initiatives that are more likely to sustain user engagement and development over time.  By setting the cooperative element at the foundation of it design, Co-Ops provides a powerful incentive for users to follow through on their personal development goals.  The integration of cooperative and personal development offers a new and exciting way to extend the promise of productivity apps and self-help software applications.
+
+### Category
+
+Co-Ops will be similar to productivity apps popular today, such as Habitica, SuperBetter, MindBloom, and ToDoist.
 
 ### Platforms
 
