@@ -225,6 +225,7 @@
      <Compile Include="Assets\GooglePlayGames\Platforms\PlayGamesClientFactory.cs" />
      <Compile Include="Assets\GooglePlayGames\Platforms\TokenClient.cs" />
      <Compile Include="Assets\GooglePlayGames\PluginVersion.cs" />
+     <Compile Include="Assets\scripts\DisplayUsername.cs" />
      <Compile Include="Assets\scripts\GameLauncher.cs" />
      <None Include="Assets\GooglePlayGames\Editor\template-GameInfo.txt" />
      <None Include="Assets\GooglePlayGames\Editor\template-AndroidManifest.txt" />

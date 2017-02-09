@@ -25,8 +25,8 @@ public class GameLauncher : MonoBehaviour {
 		GUI.Label(new Rect(20, 20, Screen.width, Screen.height * 0.25f),
 			mStatusText);
 
-		Rect buttonRect = new Rect(0.25f * Screen.width, 0.10f * Screen.height,
-			0.5f * Screen.width, 0.25f * Screen.height);
+		Rect buttonRect = new Rect(0.25f * Screen.width, 0.35f * Screen.height,
+			0.5f * Screen.width, 0.5f * Screen.height);
 		Rect imageRect = new Rect(buttonRect.x + buttonRect.width / 4f,
 			buttonRect.y + buttonRect.height * 1.1f,
 			buttonRect.width / 2f, buttonRect.width / 2f);
@@ -62,7 +62,7 @@ public class GameLauncher : MonoBehaviour {
 			}
 		}
 		else {
-			buttonLabel = "Authenticate";
+			buttonLabel = "Sign In";
 		}
 
 		if (GUI.Button(buttonRect, buttonLabel))
@@ -78,9 +78,12 @@ public class GameLauncher : MonoBehaviour {
 						if (success)
 						{
 							mStatusText = "Welcome " + Social.localUser.userName;
+							UnityEngine.SceneManagement.SceneManager.LoadScene("SceneTwo");
 						}
 						else {
 							mStatusText = "Authentication failed.";
+							UnityEngine.SceneManagement.SceneManager.LoadScene("SceneTwo");
+
 						}
 					});
 			}
