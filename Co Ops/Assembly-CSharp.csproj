@@ -227,6 +227,7 @@
      <Compile Include="Assets\GooglePlayGames\PluginVersion.cs" />
      <Compile Include="Assets\scripts\DisplayUsername.cs" />
      <Compile Include="Assets\scripts\GameLauncher.cs" />
+     <Compile Include="Assets\scripts\InviteScript.cs" />
      <None Include="Assets\GooglePlayGames\Editor\template-GameInfo.txt" />
      <None Include="Assets\GooglePlayGames\Editor\template-AndroidManifest.txt" />
      <None Include="Assets\GooglePlayGames\Editor\template-Constants.txt" />
