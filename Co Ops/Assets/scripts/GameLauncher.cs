@@ -78,11 +78,10 @@ public class GameLauncher : MonoBehaviour {
 						if (success)
 						{
 							mStatusText = "Welcome " + Social.localUser.userName;
-							UnityEngine.SceneManagement.SceneManager.LoadScene("SceneTwo");
+							UnityEngine.SceneManagement.SceneManager.LoadScene("SceneTwoOffline");
 						}
 						else {
 							mStatusText = "Authentication failed.";
-							UnityEngine.SceneManagement.SceneManager.LoadScene("SceneTwo");
 
 						}
 					});

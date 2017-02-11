@@ -225,9 +225,12 @@
      <Compile Include="Assets\GooglePlayGames\Platforms\PlayGamesClientFactory.cs" />
      <Compile Include="Assets\GooglePlayGames\Platforms\TokenClient.cs" />
      <Compile Include="Assets\GooglePlayGames\PluginVersion.cs" />
+     <Compile Include="Assets\scripts\Chat.cs" />
      <Compile Include="Assets\scripts\DisplayUsername.cs" />
      <Compile Include="Assets\scripts\GameLauncher.cs" />
+     <Compile Include="Assets\scripts\QuickNetTest.cs" />
      <Compile Include="Assets\scripts\SwitchScenes.cs" />
+     <Compile Include="Assets\scripts\UNETChat.cs" />
      <None Include="Assets\GooglePlayGames\Editor\template-GameInfo.txt" />
      <None Include="Assets\GooglePlayGames\Editor\template-AndroidManifest.txt" />
      <None Include="Assets\GooglePlayGames\Editor\template-Constants.txt" />
